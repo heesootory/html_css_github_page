@@ -1,0 +1,57 @@
+.me img{
+    height: 80px;
+    width: 80px;
+    border-radius: 30px;
+}
+.me{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+.me-title{
+    font-size: 15px;
+    margin: 5px;
+    border-bottom: 2px solid thistle;
+}
+
+.me-description{
+    margin: 7px 0px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.me-description__notsong{
+    display: flex;
+}
+
+.me__about{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.me__about span:first-child{
+    font-size: 25px;
+    font-weight: 700;
+}
+.me__about span:last-child{
+    font-size: 14px;
+    opacity: 0.6;;
+}
+
+.me__song{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(16, 179, 43);
+    color: rgb(16, 179, 43);
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.me__song span{
+    color: black;
+    font-weight: 600;
+    margin-right: 10px;
+}

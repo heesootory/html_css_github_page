@@ -1,0 +1,72 @@
+@keyframes appointmemnt {
+    from{
+        background-color: wheat;
+        color: gray;
+    }
+    to{
+        background-color: gray;
+        color: wheat;
+    }
+}
+
+.fams{
+    padding: 0px 15px;
+    overflow-y: hidden;
+    margin-top: 40px;
+}
+
+.fam-title{
+    margin: 10px 0px;
+    border-bottom: 2px solid thistle;
+}
+.fam-each{
+    margin: 25px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fam-each__info{
+    display: flex;
+    align-items: center;
+}
+
+.fam-each img{
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+}
+
+
+.fam-each__name{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 15px;
+}
+.fam-each__name span:first-child{
+    font-size: 17px;
+    font-weight: 600;
+}
+.fam-each__name span:last-child{
+    font-size: 13px;
+    opacity: 0.6;;
+}
+
+.fam-each__notify{
+    height: 30px;
+    margin-right: 20px;
+    background-color: gray;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 20px;
+    animation: appointmemnt 3s ease-in-out infinite;
+}
+.fam-each__notify__detail{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}

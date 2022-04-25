@@ -1,0 +1,26 @@
+@import "css/live-chat.css";
+@import "css/title.css";
+@import "css/me.css";
+@import "css/fam.css";
+@import "css/nav.css";
+@import "css/reset.css";
+
+
+@media screen and (max-width: 800px){
+    body{
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        background-color: wheat;
+    }
+}
+@media screen and (min-width: 801px){
+    body{
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        background-color: beige;
+    }
+}
